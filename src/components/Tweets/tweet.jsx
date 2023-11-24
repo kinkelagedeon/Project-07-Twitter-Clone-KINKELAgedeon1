@@ -24,7 +24,7 @@ function Tweet() {
                      <p className="tweet-title-details">7m</p>
                  </div>
                      <div className="tweet-text">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat mollitia eligendi eius quibusdam saepe ipsum consequuntur voluptate distinctio et vitae, provident quas sint sit deleniti laboriosam officiis veritatis nihil.</p>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat mollitia eligendi eius quibusdam saepe ipsum consequuntur voluptate distinctio et vitae, provident quas sint sit deleniti laboriosam officiis veritatis nihil.</p>
                      </div>
                         <div className='tweet-editor-actions'>
                             <span className="tweet-action"><img src={reply} alt="" srcset="" />255</span>
