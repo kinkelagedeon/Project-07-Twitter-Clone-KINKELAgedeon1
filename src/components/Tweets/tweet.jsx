@@ -6,7 +6,6 @@ import Retweet from "./../../images/Retweet.svg"
 import react from "./../../images/React.svg"
 import TweetReplies from "./../../images/Tweet-Replies.svg"
 import Tweet2 from "./tweet2";
-// import Tweet1 from "./tweet";
 function Tweet() {
     return (
       <div className="tweets">
@@ -35,6 +34,7 @@ function Tweet() {
             </div>
         </div> 
     </div>
+     <Tweet2 />
      <Tweet2 />
 </div>
     )
