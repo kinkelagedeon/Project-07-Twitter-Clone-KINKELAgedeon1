@@ -1,7 +1,7 @@
 import React from 'react';
 import profilephoto from "./../../images/profile-photo.png"
 import TweetEditorButtons from '../tweet-editor-buttons/tweeteditorbuttons';
-function Tweeteditor() {
+function TweetEditor() {
     return(
         <div className='tweet-editor'>
             <img className="avatar" src={profilephoto} alt="" srcset="" />
@@ -19,4 +19,4 @@ function Tweeteditor() {
     )   
 }
 
-export default Tweeteditor;
+export default TweetEditor;

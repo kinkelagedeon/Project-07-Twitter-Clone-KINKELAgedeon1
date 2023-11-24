@@ -7,12 +7,12 @@ import schedule from "./../../images/Schedule.svg"
 function TweetEditorButtons() {
     return(
         <div className='tweet-editor-actions'>
-        <img src={media} alt="" srcset="" />
-        <img src={gif} alt="" srcset="" />
-        <img src={poll} alt="" srcset="" />
-        <img src={emoji} alt="" srcset="" />
-        <img src={schedule} alt="" srcset="" />
-    </div>
+            <img src={media} alt="" srcset="" />
+            <img src={gif} alt="" srcset="" />
+            <img src={poll} alt="" srcset="" />
+            <img src={emoji} alt="" srcset="" />
+            <img src={schedule} alt="" srcset="" />
+        </div>
     )  
 }
 export default TweetEditorButtons;
