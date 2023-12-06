@@ -2,7 +2,7 @@ import React from "react";
 import tweetphoto from "./../../images/image 1.svg"
 import tweetImage from "./../../images/tweet-image.png"
 import tweetVector from "./../../images/Vector.svg"
-import TweetActions from "../Tweets/tweetactions"
+import TweetActions from "./tweet-actions"
 function Tweet2() {
     return (
        <div className="tweets">

@@ -3,10 +3,10 @@ import TimelineProp from './../../images/Timeline-Prop.svg'
 
 function Header() {
   return (
-    <div className='header'>
+    <nav className='header'>
         <h2>home</h2>
         <img src={TimelineProp} alt="" srcset="" />
-    </div>
+    </nav>
   ); 
 }
 export default Header;
