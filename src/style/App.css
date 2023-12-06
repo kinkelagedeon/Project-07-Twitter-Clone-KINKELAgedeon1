@@ -194,9 +194,9 @@ body{
     gap: 20px;
 }
 
-/* New css */
+/* sidebar css */
  
-.SedeaBar {
+.SideBar {
     width: 200px;
     height: 100vh;
     position: fixed;
@@ -204,6 +204,7 @@ body{
     left: 0;
     z-index: 100;
      }
+
   
   ul {
     list-style-type: none;
@@ -213,9 +214,20 @@ body{
   
   li {
     padding: 10px;
+    margin-left: 50px;
     cursor: pointer;
   }
   .list-item{
     display: flex;
-        align-items: center;
+    align-items: center;
   }
+
+
+
+
+/* trends css */
+
+  /* .search_twitter{
+    display: flex;
+    justify-content: space-between;
+} */

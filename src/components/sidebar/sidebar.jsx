@@ -11,9 +11,9 @@ import More from "./../../images/More.svg"
 function SideBar() {
     return(
         <>
-        <div className="SedeaBar">
-            <img src={Twitter} alt="" className="tweet-avatar, list-item"/>
+        <div className="SideBar">
                 <ul className="ListMenu">
+                    <li className="list-item"><img src={Twitter} alt="" /></li>
                     <li className="list-item"><img src={Home} /><span>Home</span></li>
                     <li className="list-item"><img src={Explore} alt="" srcset="" /><span>Explore</span></li>
                     <li className="list-item"><img src={Notifications} alt=""/><span>Notifications</span></li>
