@@ -1,4 +1,4 @@
-import SearchBar from "./seach";
+import SearchBar from "./SeachBar";
 function Trends() {
    <SearchBar />
 }
