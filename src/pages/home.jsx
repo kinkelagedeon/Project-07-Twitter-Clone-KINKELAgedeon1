@@ -14,7 +14,6 @@ function Home() {
       <Tweets />
       <Trends />
     </main>
-    
     <Trends />
     </>
     

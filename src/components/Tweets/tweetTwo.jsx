@@ -3,7 +3,7 @@ import tweetphoto from "./../../images/image 1.svg"
 import tweetImage from "./../../images/tweet-image.png"
 import tweetVector from "./../../images/Vector.svg"
 import TweetActions from "./tweet-actions"
-function Tweet2() {
+function tweetTwo() {
     return (
        <div className="tweets">
          <div className="tweet">
@@ -36,4 +36,4 @@ function Tweet2() {
     )
 }
 
-export default Tweet2;
+export default tweetTwo;
