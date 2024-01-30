@@ -1,6 +1,6 @@
 import React from "react";
 import tweetprofilephoto from "./../../images/tweet-profile-photo.png"
-import tweetVector from "./../../images/Vector.svg"
+import tweetVector from "./../../images/Verified.svg"
 import reply from "./../../images/Reply.svg"
 import Retweet from "./../../images/Retweet.svg"
 import react from "./../../images/React.svg"
@@ -34,7 +34,6 @@ function Tweet() {
             </div>
         </div> 
     </div>
-     <TweetTwo />
      <TweetTwo />
 </div>
     )

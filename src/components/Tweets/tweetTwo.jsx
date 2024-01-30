@@ -1,7 +1,7 @@
 import React from "react";
 import tweetphoto from "./../../images/image 1.svg"
 import tweetImage from "./../../images/tweet-image.png"
-import tweetVector from "./../../images/Vector.svg"
+import tweetVector from "./../../images/Verified.svg"
 import TweetActions from "./tweet-actions"
 function tweetTwo() {
     return (

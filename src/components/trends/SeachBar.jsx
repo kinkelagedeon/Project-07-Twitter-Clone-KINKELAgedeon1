@@ -1,19 +1,13 @@
-import React, { useState } from "react";
-
+import React from "react"
+import Vector from "./../../images/Vector.svg"
 function SearchBar() {
-  const [value, setValue] = useState("");
-
   return (
-    <div className="search-bar">
-      <label htmlFor="search-input">Recherche</label>
-      <input
-        id="search-input"
-        type="text"
-        value={value}
-        onChange={(event) => setValue(event.target.value)}
-      />
-      <button type="submit">Rechercher</button>
-    </div>
+   <div className="container-search">
+      <div className="form-container">
+          <img src={Vector} alt="logo search" />
+          <input className='input-search' type="text" placeholder="Search tweet"/>
+      </div>
+   </div>
   );
 }
 

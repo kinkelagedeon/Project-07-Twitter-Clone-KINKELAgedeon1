@@ -7,7 +7,7 @@ import Messages from "./../../images/Messages.svg"
 import Bookmarks from "./../../images/Bookmarks.svg"
 import Lists from "./../../images/Lists.svg"
 import Profile from "./../../images/Profile.svg"
-import Private from "./../../images/Private.svg"
+import Privates from "./../../images/Private.svg"
 import More from "./../../images/More.svg"
 import More_2 from "./../../images/More-2.svg"
 import tweetprofilephoto from "./../../images/profile-photo.png"
@@ -31,18 +31,23 @@ function SideBar() {
                 <button className="button_sideba">
                     Tweet
                 </button>
-                    <div className="Proflile_avatar">
+                
+            <div className="Proflile_avatars">
+                <div className="Proflile_avatar">
                         <div>
                              <img width={50}  src={tweetprofilephoto} alt="tweet-avatar" />
                         </div>
                             <div>
-                                <p>KINKELA gedeon <img src={Private} alt="" /></p>
+                                <p>KINKELA gedeon <img src={Privates} alt="" /></p>
                                 <span>@KINKELAgedeon </span>
                             </div>
                     </div>
                     <div className="more">
                                <img src={More_2} alt="" /> 
                     </div>
+
+            </div>
+                    
         </div>
          
         </>
