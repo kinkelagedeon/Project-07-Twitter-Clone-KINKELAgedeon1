@@ -194,36 +194,19 @@ body{
     gap: 20px;
 }
 
+
+
 /* sidebar css */
  
 .SideBar {
-    width: 200px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
+    border-right: 1px solid var #2F3336;
+    flex: 0.3;
+    /* min-width: 250px; */
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
      }
-
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    padding: 10px;
-    margin-left: 50px;
-    cursor: pointer;
-  }
-  .list-item{
-    display: flex;
-    align-items: center;
-  }
-  .ListMenu span{
-    margin-left: 30px;
-  }
 
 .button_sideba{
     text-transform: capitalize;
@@ -233,16 +216,62 @@ body{
     background-color: #1D9BF0;
     color: white;
     font-size: 1rem;
-    margin-left: 50px;
+    margin-left: 15px;
     margin-top: 15px;
+    cursor: pointer;
 }
+
+.button_sideba:hover{
+    background-color: #1D9BF0;
+    color: white;
+    transition: 100ms ease-out;
+}
+
+
+/* sidebarOption */
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    gap:15px;
+  }
+  
+  .sidebarOption:hover {
+    background-color: #1D9BF0;
+    border-radius: 30px;
+    color: var #2F3336;
+    transition: color 100ms ease-out;
+  }
+  
+  /* div{
+    border: 1px solid #2F3336;
+  } */
+  
+  .sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 3%;
+  }
+  
+  .sidebarOption--active {
+    color: var #2F3336;
+  }
+  
+
+
+
+
 .Proflile_avatar{
     display: flex;
     justify-content: center;
     margin-top: 20px
 }
 .more{
-    justify-content: center; 
+    justify-content: center;
+    margin-top: 20px;
+     
 }
 .Proflile_avatars{
     display: flex;

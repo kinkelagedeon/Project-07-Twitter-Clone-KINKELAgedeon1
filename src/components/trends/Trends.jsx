@@ -1,24 +1,24 @@
 import SearchBar from "./SeachBar";
+import TrendsOptions from "./TrendsOption";
+import mora2 from "./../../images/More-2.svg"
+import vecto from "./../../images/Vector.svg"
+
+
 
 function Trends() {
 
    return (
       <>
       <SearchBar />
-   <div className="container-trends">
-      <div className="trend">
-         <h3>#SQUID</h3>
-         <p>2,066 Tweets</p>
-     </div>
-      <div className="trend">
-         <h3>#TheBatman</h3>
-         <p>1,567 Tweets</p>
+      <div>
+         <div>
+            <h2> Trends for you </h2>
+            <img src={vecto} alt="" />
+         </div>
+
+
       </div>
-      <div className="trend">
-         <h3>#EldenRing</h3>
-         <p>1,234 Tweets</p>
-      </div>
-</div>
+  
       </>
    )
 }

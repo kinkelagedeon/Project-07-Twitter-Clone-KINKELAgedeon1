@@ -1,4 +1,5 @@
 import React, { createFactory } from "react";
+import SidebarOption from "./SidebarOption";
 import Twitter from "./../../images/Twitter.svg"
 import Home from "./../../images/Home-Fill.svg"
 import Explore from "./../../images/Explore.svg"
@@ -17,17 +18,17 @@ function SideBar() {
     return(
         <>
         <div className="SideBar">
-                <ul className="ListMenu">
-                    <li className="list-item"><img src={Twitter} alt="" /></li>
-                    <li className="list-item"><img src={Home} /><span> Home</span></li>
-                    <li className="list-item"><img src={Explore} alt="" srcset="" /><span> Explore</span></li>
-                    <li className="list-item"><img src={Notifications} alt=""/><span> Notifications</span></li>
-                    <li className="list-item"><img src={Messages} alt=""  /><span> Messages</span></li>
-                    <li className="list-item"><img src={Bookmarks} alt="" /><span> Bookmarks</span></li>
-                    <li className="list-item"><img src={Lists} alt="" /><span> Lists</span></li>
-                    <li className="list-item"><img src={Profile} alt="" /><span> Profile</span></li>
-                    <li className="list-item"><img src={More} alt="" /><span> More</span></li>
-                </ul>
+                    <SidebarOption active img src={Twitter} /> 
+
+                    <SidebarOption active src={Home} text="Home" /> 
+                    <SidebarOption active src={Explore} text="Explore" /> 
+                    <SidebarOption active src={Notifications} text="Notifications" /> 
+                    <SidebarOption active src={Messages} text="Messages" /> 
+                    <SidebarOption active src={Bookmarks} text="Bookmarks" /> 
+                    <SidebarOption active src={Lists} text="Lists" /> 
+                    <SidebarOption active src={Profile} text="Profile" /> 
+                    <SidebarOption active src={More} text="More" /> 
+                
                 <button className="button_sideba">
                     Tweet
                 </button>
