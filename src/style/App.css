@@ -206,6 +206,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     position: sticky;
+    
      }
 
 .button_sideba{
@@ -228,9 +229,9 @@ body{
 }
 
 
-/* sidebarOption */
+/* SidebarOption */
 
-.sidebarOption {
+.SidebarOption {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -238,8 +239,8 @@ body{
     gap:15px;
   }
   
-  .sidebarOption:hover {
-    background-color: #1D9BF0;
+  .SidebarOption:hover {
+    background-color: #2F3336;
     border-radius: 30px;
     color: var #2F3336;
     transition: color 100ms ease-out;
@@ -249,13 +250,13 @@ body{
     border: 1px solid #2F3336;
   } */
   
-  .sidebarOption > h2 {
+  .SidebarOption > h2 {
     font-weight: 800;
     font-size: 20px;
     margin-right: 3%;
   }
   
-  .sidebarOption--active {
+  .SidebarOption--active {
     color: var #2F3336;
   }
   
@@ -319,12 +320,19 @@ body{
 
 }
 .container-trends{
-    border: 1px solid black;
-    margin: 10px;
-    outline: none;
-    background: none;
-    color: gray;
-    resize: none;
-    padding: 20px 0 0 0;
-    font-size: 1.4rem;
+    margin: 15px ;
+    border: #2F3336;
+    border-radius: 3%;
+    background-color: #2F3336;
+    padding: 20px ;
 }
+
+.lists-Trends{
+    display: flex;
+    gap: 50px;
+}
+.list--Trends span{ 
+    gap: 20px;
+    cursor: pointer;
+}
+

@@ -1,5 +1,5 @@
 import React, { createFactory } from "react";
-import SidebarOption from "./SidebarOption";
+import SidebarOption from "./sidebarOption";
 import Twitter from "./../../images/Twitter.svg"
 import Home from "./../../images/Home-Fill.svg"
 import Explore from "./../../images/Explore.svg"
