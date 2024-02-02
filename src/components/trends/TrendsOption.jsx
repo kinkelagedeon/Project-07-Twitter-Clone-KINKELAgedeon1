@@ -5,7 +5,6 @@ import React from "react";
           <div className={`TrendsOptions ${active && "TrendsOptions--active"}`}>
             <img src={src}/>
             <h2>{text}</h2>
-            <p>{text}</p>
           </div>
         );
       }
