@@ -235,7 +235,7 @@ body{
     align-items: center;
     cursor: pointer;
     padding: 10px;
-    gap:15px;
+    gap: 30px;
   }
   
   .SidebarOption:hover {
