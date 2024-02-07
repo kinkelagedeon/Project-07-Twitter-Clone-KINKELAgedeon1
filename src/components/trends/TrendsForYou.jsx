@@ -12,30 +12,30 @@ function TrendsForYou() {
     </div>
 
    <div className="list-Trends img">
-    <span>Trending in Turkey<img src={mora2} /> </span> 
-    <h2>#SQUID</h2>
-    <p>2,066 Tweets</p>
+        <span>Trending in Turkey<img src={mora2} /> </span> 
+        <h2>#SQUID</h2>
+        <p>2,066 Tweets</p>
    </div>
 
    <div className="list-Trends img">
-    <span>Trending in Turkey<img src={mora2} /> </span> 
-    <h2>#SQUID</h2>
-    <p>2,066 Tweets</p>
+        <span>Trending in Turkey<img src={mora2} /> </span> 
+        <h2>#SQUID</h2>
+        <p>2,066 Tweets</p>
    </div>
 
    <div className="list-Trends img">
-    <span>Trending in Turkey<img src={mora2} /> </span> 
-    <h2>#SQUID</h2>
-    <p>2,066 Tweets</p>
+        <span>Trending in Turkey<img src={mora2} /> </span> 
+        <h2>#SQUID</h2>
+        <p>2,066 Tweets</p>
    </div>
 
    <div className="list-Trends img">
-    <span>Trending in Turkey<img src={mora2} /> </span> 
-    <h2>#SQUID</h2>
-    <p>2,066 Tweets</p>
+        <span>Trending in Turkey<img src={mora2} /> </span> 
+        <h2>#SQUID</h2>
+        <p>2,066 Tweets</p>
    </div>
-   <button className='button-You-Trends'> Show more </button>
- </div>
+        <button className='button-You-Trends'> Show more </button>
+  </div>
 
   )
 }

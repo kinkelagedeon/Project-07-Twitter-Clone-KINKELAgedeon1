@@ -7,30 +7,33 @@ import Profilecnn from "./../../images/Profile-PhotoP.svg"
 
 function TrendsFollow() {
   return (
-    <div className='TrendsFollow-container'> 
-          <h2>Who to follow</h2>
-        <div className='tweet--avatar'>
-           <img width={50}  src={NyTimes} alt="tweet-avatar" />
-           <p>The New York Times <img src= {tweetVector}/></p>
-           <button className='buttonFollow'> Follow </button>
-           
-        </div> 
 
-        <div className='tweet--avatar'>
-           <img width={50}  src={Profilecnn} alt="tweet-avatar" />
-           <p> CNN <img src= {tweetVector}/></p>
-           <button className='buttonFollow'> Follow </button>
-        </div> 
+    <div  className='TrendsFollow-container'>
 
-        <div className='tweet--avatar'>
-           <img width={50}  src={TwittirProfile} alt="tweet-avatar" />
-           <p>Twitter<img src= {tweetVector}/></p>
-           <button className='buttonFollow'> Follow </button>
+     <div className='TrendsFollow'><h2>Who to follow</h2></div>
+
+        <div className='list-TrendsFollow'>
+           <div className=''><img width={50}  src={NyTimes} alt="tweet-avatar" /></div>
+           <div>The New York Times <img src= {tweetVector} /> <p>@nytimes</p> </div>
+           <div>  <button className='buttonFollow'> Follow </button></div> 
         </div>
 
-        <button className='button-You-Trends'> Show more </button> 
-        
+        <div className='list-TrendsFollow'>
+           <div><img width={50}  src={Profilecnn} alt="tweet-avatar" /></div>
+           <div>CNN <img src= {tweetVector} /> <p>@cnn</p> </div>
+           <div>  <button className='buttonFollow'> Follow </button></div> 
+        </div>
+
+        <div className='list-TrendsFollow'>
+           <div><img width={50} src={TwittirProfile} alt="tweet-avatar" /></div>
+           <div>Twitter <img src= {tweetVector} /> <p>@twitter</p> </div>
+           <div><button className='buttonFollow'> Follow </button></div> 
+        </div>
+
+        <button className='button-You-Trends'> Show more </button>
+
     </div>
+
   )
 }
 

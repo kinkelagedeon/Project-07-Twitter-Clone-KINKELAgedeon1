@@ -26,7 +26,7 @@ function SideBar() {
                     <SidebarOption active src={Messages} text="Messages" /> 
                     <SidebarOption active src={Bookmarks} text="Bookmarks" /> 
                     <SidebarOption active src={Lists} text="Lists" /> 
-                    <SidebarOption active src={Profile} text="Profile" /> 
+                    <Link to="/Profile"><SidebarOption active src={Profile} text="Profile" /> </Link>
                     <SidebarOption active src={More} text="More" /> 
                 
                 <button className="button_sideba">
