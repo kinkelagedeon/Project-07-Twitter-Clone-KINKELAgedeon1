@@ -6,7 +6,7 @@ function Layout({children}) {
     return (
         <>
             <div className="left-sidebar">
-                <SideBar/>
+            <SideBar/>
             </div>
             {children}
             <div className="right-sidebar" >

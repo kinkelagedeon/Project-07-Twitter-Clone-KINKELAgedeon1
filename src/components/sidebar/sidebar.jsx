@@ -12,6 +12,7 @@ import Privates from "./../../images/Private.svg"
 import More from "./../../images/More.svg"
 import More_2 from "./../../images/More-2.svg"
 import tweetprofilephoto from "./../../images/profile-photo.png"
+import { Link } from "react-router-dom";
 
 
 function SideBar() {
@@ -20,13 +21,15 @@ function SideBar() {
         <div className="SideBar">
                     <SidebarOption active img src={Twitter} /> 
 
-                    <SidebarOption active src={Home} text="Home" /> 
+                    <Link to="/" ><SidebarOption active src={Home}  /></Link>
                     <SidebarOption active src={Explore} text="Explore" /> 
                     <SidebarOption active src={Notifications} text="Notifications" /> 
                     <SidebarOption active src={Messages} text="Messages" /> 
                     <SidebarOption active src={Bookmarks} text="Bookmarks" /> 
-                    <SidebarOption active src={Lists} text="Lists" /> 
-                    <Link to="/Profile"><SidebarOption active src={Profile} text="Profile" /> </Link>
+                    <SidebarOption active src={Lists} text="Lists" />
+                    <Link to="/Profile" ><SidebarOption active src={Profile} text="Profile" /></Link>
+                    
+
                     <SidebarOption active src={More} text="More" /> 
                 
                 <button className="button_sideba">

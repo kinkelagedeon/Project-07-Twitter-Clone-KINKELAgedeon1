@@ -5,11 +5,11 @@ import React from 'react';
 const Profile = () => {
   return (
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-      <img
+      {/* <img
         className="w-full h-64 object-cover object-center"
         src={Gedeon}
-        alt="Photo de couverture"
-      />
+        alt="Photo de couverture" 
+      /> */}
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">Gédéon Kinkela</div>
         <p className="text-gray-700 text-base">Inscrit en juin 2021</p>

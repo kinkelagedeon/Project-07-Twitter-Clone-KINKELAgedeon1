@@ -8,15 +8,15 @@ import('./style/App.css');
 
 export default function App() {
   return (
-    <Layout>
-    <BrowserRouter> 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Profile" element={<Profile />} />
-
-     </Routes>
-    </BrowserRouter>
-    </Layout>
+    
+      <BrowserRouter> 
+      <Layout>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/Profile" element={<Profile />} />
+          </Routes>
+          </Layout>
+      </BrowserRouter>
   );
 }
 
